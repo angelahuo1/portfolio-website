@@ -1,4 +1,5 @@
 # portfolio-website
 
 WORK IN PROGRESS.
-My portfolio website 2025.
+Angela Huo portfolio website.
+Last updated November 2025.
