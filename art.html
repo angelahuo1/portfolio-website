@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>My Website</title>
-    <style>
-        body {background-color: #EEE7D7; }
-    </style>
 </head>
 <body>
     <div class="main-container">
@@ -40,13 +37,35 @@
                 <img src = "./images/Rectangle8-1.svg" alt = "r8-1" class = "b9" />
                 <div class="horizontal-wrapper">
                     <img src = "./images/Rectangle9-1.svg" alt = "r9-1" class = "b10" />
-                    <img src = "./images/Rectangle10-1.svg" alt = "r10-1" class = "b11" />
+                    <img src = "./images/Rectangle10-1.svg" alt = "r10-1" class = "b11" fetchpriority="high" decoding="sync" />
                 </div>
             </div>
 
             <div class="right-foreground-nonindex">
                 
                 <div class="scroll-container-art">
+
+                    <div class = "art-text">
+                        <h1>□ february 2026</h1>
+                    </div>
+
+                    <div class= "art-container"> 
+                        <a href="#art12" class="art-item">
+                            <video class="art-thumb" autoplay muted loop playsinline preload="metadata" poster="./images/art/thumb/blackriders_final.jpg" width="300" height="225">
+                                <source src="./images/art/thumb/blackriders_final_thumb.webm" type="video/webm">
+                            </video>
+                        </a>
+                        <p class="art-info">i saw a man pursuing the horizon</p>
+                    </div>
+
+                    <div class= "art-container"> 
+                        <a href="#art13" class="art-item">
+                            <video class="art-thumb" autoplay muted loop playsinline preload="metadata" poster="./images/art/thumb/hand_free.jpg" width="300" height="225">
+                                <source src="./images/art/thumb/hand_free_thumb.webm" type="video/webm">
+                            </video>
+                        </a>
+                        <p class="art-info">a bird in the hand</p>
+                    </div>
                     
                     <div class = "art-text">
                         <h1>□ december 2025</h1>
@@ -54,14 +73,14 @@
 
                     <div class= "art-container"> 
                         <a href="#art11" class="art-item">
-                            <img src="./images/candlelight.png" alt="art11 thumbnail" class="art-thumb">
+                            <img src="./images/art/thumb/candlelight.webp" alt="art11 thumbnail" class="art-thumb" width="300" height="225" loading="eager" decoding="async" fetchpriority="high">
                         </a>
                         <p class="art-info">candlelight forgives all imperfections</p>
                     </div>
 
                     <div class= "art-container"> 
                         <a href="#art10" class="art-item">
-                            <img src="./images/glittr.png" alt="art10 thumbnail" class="art-thumb">
+                            <img src="./images/art/thumb/glittr.webp" alt="art10 thumbnail" class="art-thumb" width="300" height="225" loading="eager" decoding="async">
                         </a>
                         <p class="art-info">gift for @glittr</p>
                     </div>
@@ -74,7 +93,7 @@
 
                     <div class= "art-container"> 
                         <a href="#art2" class="art-item">
-                            <img src="./images/figtreejpg.jpg" alt="art2 thumbnail" class="art-thumb">
+                            <img src="./images/art/thumb/figtreejpg.webp" alt="art2 thumbnail" class="art-thumb" width="300" height="225" loading="lazy" decoding="async">
                         </a>
                         <p class="art-info">mural concept art</p>
                     </div>
@@ -86,14 +105,14 @@
 
                     <div class= "art-container"> 
                         <a href="#art4" class="art-item">
-                            <img src="./images/IMG_2370.jpeg" alt="art4 thumbnail" class="art-thumb">
+                            <img src="./images/art/thumb/IMG_2370.webp" alt="art4 thumbnail" class="art-thumb" width="300" height="225" loading="lazy" decoding="async">
                         </a>
                         <p class="art-info">pair of two</p>
                     </div>
 
                     <div class= "art-container"> 
                         <a href="#art1" class="art-item">
-                            <img src="./images/chairs.png" alt="art1 thumbnail" class="art-thumb">
+                            <img src="./images/art/thumb/chairs.webp" alt="art1 thumbnail" class="art-thumb" width="300" height="225" loading="lazy" decoding="async">
                         </a>
                         <p class="art-info">there is time yet</p>
                     </div>
@@ -104,7 +123,7 @@
 
                     <div class= "art-container"> 
                         <a href="#art3" class="art-item">
-                            <img src="./images/Divine.jpg" alt="art3 thumbnail" class="art-thumb">
+                            <img src="./images/art/thumb/Divine.webp" alt="art3 thumbnail" class="art-thumb" width="300" height="225" loading="lazy" decoding="async">
                         </a>
                         <p class="art-info">divine</p>
                     </div>
@@ -115,7 +134,7 @@
 
                     <div class= "art-container"> 
                         <a href="#art5" class="art-item">
-                            <img src="./images/Study.jpg" alt="art5 thumbnail" class="art-thumb">
+                            <img src="./images/art/thumb/Study.webp" alt="art5 thumbnail" class="art-thumb" width="300" height="225" loading="lazy" decoding="async">
                         </a>
                         <p class="art-info">lighting study</p>
                     </div>
@@ -126,98 +145,110 @@
 
                     <div class= "art-container"> 
                         <a href="#art6" class="art-item">
-                            <img src="./images/girlinside.png" alt="art6 thumbnail" class="art-thumb">
+                            <img src="./images/art/thumb/girlinside.webp" alt="art6 thumbnail" class="art-thumb" width="300" height="225" loading="lazy" decoding="async">
                         </a>
                         <p class="art-info">girl inside</p>
                     </div>
 
                     <div class= "art-container"> 
                         <a href="#art7" class="art-item">
-                            <img src="./images/Untitled.png" alt="art7 thumbnail" class="art-thumb">
+                            <img src="./images/art/thumb/Untitled.webp" alt="art7 thumbnail" class="art-thumb" width="300" height="225" loading="lazy" decoding="async">
                         </a>
                         <p class="art-info">untitled</p>
                     </div>
 
                     <div class= "art-container"> 
                         <a href="#art8" class="art-item">
-                            <img src="./images/thattime.png" alt="art8 thumbnail" class="art-thumb">
+                            <img src="./images/art/thumb/thattime.webp" alt="art8 thumbnail" class="art-thumb" width="300" height="225" loading="lazy" decoding="async">
                         </a>
                         <p class="art-info">quietly by her side on azure streets</p>
                     </div>
 
                     <div class= "art-container"> 
                         <a href="#art9" class="art-item">
-                            <img src="./images/conversations.png" alt="art9 thumbnail" class="art-thumb">
+                            <img src="./images/art/thumb/conversations.webp" alt="art9 thumbnail" class="art-thumb" width="300" height="225" loading="lazy" decoding="async">
                         </a>
                         <p class="art-info">intimate conversations</p>
                     </div>
 
                 </div>
 
+                <div id="art12" class="lightbox">
+                    <a href="#" class="close"></a>
+                    <video class="lightbox-media" data-src="./images/art/full/blackriders_final.webm" autoplay muted loop playsinline preload="none" controls poster="./images/art/thumb/blackriders_final.jpg"></video>
+                    <div class="lightbox-caption">i saw a man pursuing the horizon. february 2026, 2d animation.</div>
+                </div>
+
+                <div id="art13" class="lightbox">
+                    <a href="#" class="close"></a>
+                    <video class="lightbox-media" data-src="./images/art/full/hand_free.webm" autoplay muted loop playsinline preload="none" controls poster="./images/art/thumb/hand_free.jpg"></video>
+                    <div class="lightbox-caption">a bird in the hand. february 2026, 2d animation.</div>
+                </div>
+
                 <div id="art1" class="lightbox">
                     <a href="#" class="close"></a>
-                    <img src="./images/chairs.png" alt="art1 full">
+                    <img data-src="./images/art/full/chairs.webp" alt="art1 full" decoding="async">
                     <div class="lightbox-caption">there is time yet. august 2025, digital illustration. </div>
                 </div>
 
                 <div id="art2" class="lightbox">
                     <a href="#" class="close"></a>
-                    <img src="./images/figtreejpg.jpg" alt="art2 full">
+                    <img data-src="./images/art/full/figtreejpg.webp" alt="art2 full" decoding="async">
                     <div class="lightbox-caption">mural concept art. september 2025, digital illustration.</div>
                 </div>
 
                 <div id="art3" class="lightbox">
                     <a href="#" class="close"></a>
-                    <img src="./images/Divine.jpg" alt="art3 full">
+                    <img data-src="./images/art/full/Divine.webp" alt="art3 full" decoding="async">
                     <div class="lightbox-caption">divine. october 2024, digital illustration.</div>
                 </div>
 
                 <div id="art4" class="lightbox">
                     <a href="#" class="close"></a>
-                    <img src="./images/IMG_2370.jpeg" alt="art4 full">
+                    <img data-src="./images/art/full/IMG_2370.webp" alt="art4 full" decoding="async">
                     <div class="lightbox-caption"> pair of two. july 2025, oil on canvas.</div>
                 </div>
 
                 <div id="art5" class="lightbox">
                     <a href="#" class="close"></a>
-                    <img src="./images/Study.jpg" alt="art5 full">
+                    <img data-src="./images/art/full/Study.webp" alt="art5 full" decoding="async">
                     <div class="lightbox-caption">lighting study. october 2024, digital illustration.</div>
                 </div>
 
                 <div id="art6" class="lightbox">
                     <a href="#" class="close"></a>
-                    <img src="./images/girlinside.png" alt="art6 full">
+                    <img data-src="./images/art/full/girlinside.webp" alt="art6 full" decoding="async">
                     <div class="lightbox-caption">girl inside. 2023, digital illustration.</div>
                 </div>
 
                 <div id="art7" class="lightbox">
                     <a href="#" class="close"></a>
-                    <img src="./images/Untitled.png" alt="art7 full">
+                    <img data-src="./images/art/full/Untitled.webp" alt="art7 full" decoding="async">
                     <div class="lightbox-caption">untitled. 2023, digital illustration.</div>
                 </div>
 
                 <div id="art8" class="lightbox">
                     <a href="#" class="close"></a>
-                    <img src="./images/thattime.png" alt="art8 full">
+                    <img data-src="./images/art/full/thattime.webp" alt="art8 full" decoding="async">
                     <div class="lightbox-caption">quietly by her side on azure streets. 2023, digital illustration.</div>
                 </div>
 
                 <div id="art9" class="lightbox">
                     <a href="#" class="close"></a>
-                    <img src="./images/conversations.png" alt="art9 full">
+                    <img data-src="./images/art/full/conversations.webp" alt="art9 full" decoding="async">
                     <div class="lightbox-caption">intimate conversations. 2023, digital illustration.</div>
                 </div>
 
                 <div id="art10" class="lightbox">
                     <a href="#" class="close"></a>
-                    <img src="./images/glittr.png" alt="art10 full">
-                    <div class="lightbox-caption">gift for @glittr. 2025, digital illustration.</div>
+                    <img data-src="./images/art/full/glittr.webp" alt="art10 full" decoding="async">
+                    <div class="lightbox-caption">gift for @glittr. december 2025, digital illustration.</div>
                 </div>
 
                 <div id="art11" class="lightbox">
                     <a href="#" class="close"></a>
-                    <img src="./images/candlelight.png" alt="art11 full">
-                    <div class="lightbox-caption">candlelight forgives all imperfections. 2025, digital illustration.</div>
+                    <img data-src="./images/art/full/candlelight.webp" alt="art11 full" decoding="async">
+                    <div class="lightbox-caption">candlelight forgives all imperfections. december 2025, digital illustration.</div>
                 </div>
 
 
